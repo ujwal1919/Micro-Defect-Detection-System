@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardware & Software Requirement</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        .document {
+            background: white;
+            width: 210mm;
+            min-height: 297mm;
+            padding: 30mm 25mm;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        
+        .title {
+            text-align: center;
+            font-size: 28pt;
+            font-weight: bold;
+            margin-bottom: 30mm;
+            color: #1a1a1a;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .section-title {
+            font-size: 20pt;
+            font-weight: bold;
+            margin-bottom: 15mm;
+            color: #2c3e50;
+            text-transform: uppercase;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+        
+        .software-item {
+            margin-bottom: 8mm;
+            padding-left: 5mm;
+            border-left: 4px solid #3498db;
+            padding-left: 8mm;
+        }
+        
+        .software-name {
+            font-size: 14pt;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 2mm;
+        }
+        
+        .software-description {
+            font-size: 11pt;
+            color: #555;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        
+        .footer {
+            position: absolute;
+            bottom: 20mm;
+            left: 25mm;
+            right: 25mm;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 10pt;
+            color: #666;
+            border-top: 1px solid #ddd;
+            padding-top: 5mm;
+        }
+        
+        .footer-left {
+            text-align: left;
+        }
+        
+        .footer-center {
+            text-align: center;
+        }
+        
+        .footer-right {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="document">
+        <div class="title">HARDWARE & SOFTWARE REQUIREMENT</div>
+        
+        <div class="section-title">SOFTWARE REQUIRMENTS</div>
+        
+        <div class="software-item">
+            <div class="software-name">Python</div>
+            <div class="software-description">Primary language for deep learning model development, backend API logic, and image processing operations.</div>
+        </div>
+        
+        <div class="software-item">
+            <div class="software-name">PyTorch</div>
+            <div class="software-description">Deep learning framework for creating, training, and deploying CNN models (ResNet18, ResNet50) for defect detection.</div>
+        </div>
+        
+        <div class="software-item">
+            <div class="software-name">TorchVision</div>
+            <div class="software-description">Pre-trained models library providing ResNet architectures with ImageNet weights for transfer learning.</div>
+        </div>
+        
+        <div class="software-item">
+            <div class="software-name">OpenCV</div>
+            <div class="software-description">For preprocessing, analyzing PCB images, edge detection, contour analysis, and computer vision algorithms.</div>
+        </div>
+        
+        <div class="software-item">
+            <div class="software-name">FastAPI</div>
+            <div class="software-description">Modern Python web framework for building RESTful API endpoints and handling image upload requests.</div>
+        </div>
+        
+        <div class="software-item">
+            <div class="software-name">Uvicorn</div>
+            <div class="software-description">ASGI web server for running the FastAPI backend application with high performance.</div>
+        </div>
+        
+        <div class="software-item">
+            <div class="software-name">NumPy & Pandas</div>
+            <div class="software-description">Essential for handling image data arrays, numerical computations, and statistical analysis.</div>
+        </div>
+        
+        <div class="software-item">
+            <div class="software-name">Pillow (PIL)</div>
+            <div class="software-description">Python Imaging Library for image manipulation, format conversion, and preprocessing operations.</div>
+        </div>
+        
+        <div class="software-item">
+            <div class="software-name">Next.js</div>
+            <div class="software-description">React-based framework for building the frontend web application with server-side rendering capabilities.</div>
+        </div>
+        
+        <div class="software-item">
+            <div class="software-name">React</div>
+            <div class="software-description">JavaScript library for building interactive user interfaces and component-based frontend development.</div>
+        </div>
+        
+        <div class="software-item">
+            <div class="software-name">TypeScript</div>
+            <div class="software-description">Type-safe programming language for frontend development ensuring code reliability and maintainability.</div>
+        </div>
+        
+        <div class="software-item">
+            <div class="software-name">Tailwind CSS</div>
+            <div class="software-description">Utility-first CSS framework for rapid UI development and responsive design.</div>
+        </div>
+        
+        <div class="software-item">
+            <div class="software-name">Chart.js & Recharts</div>
+            <div class="software-description">JavaScript charting libraries for result visualization and defect analytics dashboard.</div>
+        </div>
+        
+        <div class="software-item">
+            <div class="software-name">Python-multipart</div>
+            <div class="software-description">Library for handling file uploads in FastAPI, enabling image file processing from frontend.</div>
+        </div>
+        
+        <div class="footer">
+            <div class="footer-left">Dept of ISE</div>
+            <div class="footer-center">2025</div>
+            <div class="footer-right">Page 1</div>
+        </div>
+    </div>
+</body>
+</html>
+

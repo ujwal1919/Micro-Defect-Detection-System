@@ -1,0 +1,59 @@
+HARDWARE REQUIREMENTS FOR PCB DEFECT DETECTION PROJECT
+========================================================
+
+MINIMUM REQUIREMENTS:
+---------------------
+
+1. Processor (CPU)
+   - Intel Core i5 (7th Gen) or AMD Ryzen 5
+   - Quad-core or better
+   - 2.5 GHz or higher
+
+2. Memory (RAM)
+   - 8 GB minimum
+   - 16 GB recommended
+
+3. Storage
+   - 20 GB minimum free space
+   - 50 GB recommended
+   - SSD preferred for better performance
+
+4. Graphics Card (GPU)
+   - Optional for basic usage
+   - NVIDIA GPU (CUDA support) recommended for training
+   - Minimum: GTX 1050 Ti (4GB VRAM)
+   - Recommended: RTX 3060+ (8GB VRAM)
+
+5. Display
+   - 1366 x 768 minimum
+   - 1920 x 1080 (Full HD) recommended
+
+6. Operating System
+   - Windows 10/11 (64-bit)
+   - Linux (Ubuntu 20.04+)
+   - macOS 10.15+
+
+7. Network
+   - Internet connection for initial setup
+   - Local network for deployment
+
+
+RECOMMENDED REQUIREMENTS:
+-------------------------
+
+1. Processor: Intel Core i7 / AMD Ryzen 7
+2. Memory: 16 GB RAM
+3. Storage: 256 GB SSD
+4. Graphics: NVIDIA RTX 3060+ (for training)
+5. Display: Full HD (1920x1080) or higher
+
+
+KEY POINTS:
+-----------
+
+- CPU: Essential for running the application
+- RAM: 8GB minimum (16GB better) for loading models
+- Storage: SSD recommended for faster performance
+- GPU: Not required but 50-100x faster for training
+- Can run on most modern computers
+

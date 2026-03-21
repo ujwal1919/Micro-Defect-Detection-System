@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Purple Theme Colors */
+  --purple-primary: 255, 255, 255;
+  --purple-bg-start: 26, 26, 26;
+  --purple-bg-end: 15, 15, 15;
+  
+  /* Theme Colors */
+  --theme-purple-100: #f3efff;
+  --theme-purple-200: #e2d8ff;
+  --theme-purple-300: #c4b1ff;
+  --theme-purple-400: #a587ff;
+  --theme-purple-500: #8659ff;
+  --theme-purple-600: #6c3aed;
+  --theme-purple-700: #5829bd;
+  --theme-purple-800: #441c8c;
+  --theme-purple-900: #2d1159;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    
+    /* Card & UI Elements */
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    
+    /* Primary Colors */
+    --primary: 267 100% 67%;
+    --primary-foreground: 0 0% 98%;
+    
+    /* Secondary Colors */
+    --secondary: 267 50% 15%;
+    --secondary-foreground: 0 0% 98%;
+    
+    /* Accent Colors */
+    --accent: 267 30% 20%;
+    --accent-foreground: 0 0% 98%;
+    
+    /* Utility Colors */
+    --muted: 267 30% 15%;
+    --muted-foreground: 0 0% 63.9%;
+    --border: 267 30% 20%;
+    --input: 267 30% 20%;
+    --ring: 267 100% 67%;
+    
+    /* Status Colors */
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    
+    /* Chart Colors */
+    --chart-1: 267 100% 67%;
+    --chart-2: 280 100% 65%;
+    --chart-3: 290 100% 63%;
+    --chart-4: 300 100% 61%;
+    --chart-5: 310 100% 59%;
+    
+    --radius: 0.5rem;
+  }
+}
+
+body {
+  background: linear-gradient(
+    to bottom,
+    rgb(var(--purple-bg-start)),
+    rgb(var(--purple-bg-end))
+  );
+  color: rgb(var(--purple-primary));
+}
+
+/* Add glow effects */
+.glow {
+  box-shadow: 0 0 30px -5px rgba(134, 89, 255, 0.2);
+}
+
+.glow-text {
+  text-shadow: 0 0 10px rgba(134, 89, 255, 0.3);
+}
+
+.gradient-border {
+  border: 1px solid transparent;
+  background: linear-gradient(var(--card), var(--card)) padding-box,
+              linear-gradient(to right, var(--theme-purple-500), var(--theme-purple-700)) border-box;
+}
